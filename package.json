@@ -1,0 +1,30 @@
+{
+  "name": "tildacc-sync",
+  "version": "1.0.0",
+  "description": "Package for synchronizing Tilda.cc project and Node.js app.",
+  "main": "src/TildaSync.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lesha2r",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.17.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesha2r/tildacc-sync.git"
+  },
+  "keywords": [
+    "tildacc",
+    "tilda",
+    "tilda",
+    "publishing"
+  ],
+  "bugs": {
+    "url": "https://github.com/lesha2r/tildacc-sync/issues"
+  },
+  "homepage": "https://github.com/lesha2r/tildacc-sync#readme"
+}
