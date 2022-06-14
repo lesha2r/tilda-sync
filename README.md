@@ -4,7 +4,7 @@
 
 # Установка
 ```
-npm i tildacc-sync
+npm i tilda-sync
 ```
 
 # Подготовка на стороне Tilda
@@ -18,7 +18,7 @@ npm i tildacc-sync
 # Использование
 Инициализируйте клиент, указав ключи, полученные в кабинете Тильды
 ```
-import TildaSync from 'tildacc-sync';
+import TildaSync from 'tilda-sync';
 
 let tildaSync = new TildaSync({
 	publicKey: 'YOUR_PUBLIC_KEY',
@@ -136,7 +136,7 @@ try {
 
 Инициализируйте TildaRouter:
 ```
-import { TildaRouter } from 'tildacc-sync'
+import { TildaRouter } from 'tilda-sync'
 
 let tildaRouter = new TildaRouter('pagesPROJECT_ID.json', {
     pathToHTMLs: './public',
