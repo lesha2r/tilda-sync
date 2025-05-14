@@ -1,18 +1,24 @@
 {
   "name": "tilda-sync",
-  "version": "1.0.0",
-  "description": "Package for synchronizing Tilda.cc project and Node.js app.",
+  "version": "2.0.0",
+  "description": "Клиент для импорта сайта на Тильде (Tilda.cc) в проекте на Node.js.",
   "main": "src/TildaSync.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node app.js",
+    "tsc": "tsc -b src/",
+    "tsc-watch": "tsc --b --watch src/"
   },
   "author": "lesha2r",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.17.0"
+    "@types/node": "^22.15.18",
+    "eslint": "^8.17.0",
+    "typescript": "^5.8.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lesha2r/tilda-sync.git"
@@ -20,14 +26,10 @@
   "keywords": [
     "tilda.cc",
     "tilda",
-    "tilda",
-    "publishing"
+    "тильда"
   ],
   "bugs": {
     "url": "https://github.com/lesha2r/tilda-sync/issues"
   },
-  "homepage": "https://github.com/lesha2r/tilda-sync#readme",
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  }
+  "homepage": "https://github.com/lesha2r/tilda-sync#readme"
 }
