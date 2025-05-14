@@ -1,4 +1,7 @@
-src/
-.gitignore
-test/
+src
+test
+node_modules
+dev
+app.js
 .eslintrc
+.gitignore
